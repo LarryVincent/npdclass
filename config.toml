@@ -1,0 +1,46 @@
+baseURL = "http://npdclass.com/"
+languageCode = "en-us"
+title = "NPD Class MKT530"
+theme = "zen"
+defaultContentLanguage = "en"
+pluralizelisttitles = false
+removePathAccents = true
+paginate = 10.0
+paginatePath = "page"
+rssLimit = 20.0
+
+[author]
+name = "Laurence Vincent"
+url = "https://www.npdclass.com"
+avatar = "https://secure.gravatar.com/avatar/a07435135f798d32fb93ead95eb655de"
+
+[outputs]
+home = [
+	"HTML",
+	"RSS",
+	"JSON"
+]
+
+[params]
+contact = "laurencv@usc.edu"
+copyright = "2019 by Laurence Vincent"
+description = "Companion resource to Laurence Vincent's New Product Development course (MKT530) at USC Marshall School of Business"
+dateformat = "Jan 2, 2006"
+favicon = "icon-64.png"
+feedlink = true
+footer = "Powered by [Hugo](https://gohugo.io) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
+icon = "apple-touch-icon-180.png"
+image = "apple-touch-icon-180.png"
+imageMaxWidth = 400.0
+jquery = true
+logo = true
+mainSections = [
+ ]
+mobileMenu = true
+poweredby = false
+search = false
+searchSize = 10.0
+sidebar = false
+showTitle = false
+submitted = true
+themeColor = "#fff"

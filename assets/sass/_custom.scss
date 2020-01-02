@@ -1,0 +1,36 @@
+// sass-lint:disable no-css-comments, no-color-hex, no-color-literals
+
+// Site custom styles
+
+
+.header__logo-image {
+	max-width: 140px;
+}
+
+.footer {
+	border: none;
+}
+
+.footer p {
+		font-size: 12px;
+		line-height: 14px;
+		color: $grey-light;
+		margin: 0;
+}
+
+
+.title {
+	@include font-size(s);
+}
+
+.title a {
+	text-decoration: none;
+}
+
+.title a:hover {
+	text-decoration: underline;
+}
+
+.submitted {
+	margin: 8px 0;
+}
